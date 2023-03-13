@@ -193,7 +193,7 @@ section .footer .row.row2 ul:nth-child(2) li a
     font-family: arial,sans-serif;
     color: #202124;
     cursor: pointer;
-    line-height: 44px;
+    line-height: 35px;
     height: 24px;
     width: 24px;
     vertical-align: middle;
@@ -204,13 +204,17 @@ section .footer .row.row2 ul:nth-child(2) li a
     white-space: nowrap;
     color: #70757a;
     height: 14px;
-    
-
+    margin-left: 10%;
+   
 }
-#lists
+.list
 {
-    /* float: left; */
-    /* display:inline-block; */
-    /* vertical-align: ; */
-
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 24%;
+}
+.country
+{
+   color: #5f6368; 
 }
